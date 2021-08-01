@@ -112,17 +112,17 @@ window.addEventListener('load', function() {
 
         const section = domElement('section', {
           class:
-            ' margin-t4__373c0__1TRkQ padding-t4__373c0__3hVZ3 border--top__373c0__19Owr border-color--default__373c0__2oFDT',
+            ' margin-t4__373c0__1C5Vu padding-t4__373c0__QdK4M border--top__373c0__1YJkA border-color--default__373c0__r305k',
           'aria-label': 'Health Inspections',
         });
 
         const headerContainer = domElement('div', {
           class:
-            ' arrange__373c0__UHqhV gutter-auto__373c0__K8mVn vertical-align-middle__373c0__2TQsQ margin-b3__373c0__q1DuY border-color--default__373c0__2oFDT',
+            ' arrange__373c0__2iVWK gutter-auto__373c0__18b6A vertical-align-middle__373c0__2sr2a margin-b3__373c0__3wkWG border-color--default__373c0__r305k',
         });
         const headerContainee = domElement('div', {
           class:
-            ' arrange-unit__373c0__1piwO arrange-unit-fill__373c0__17z0h border-color--default__373c0__2oFDT',
+            ' arrange-unit__373c0__3XPkE arrange-unit-fill__373c0__38Zde border-color--default__373c0__r305k',
         });
         const header = domElement(
           'h4',
@@ -138,10 +138,10 @@ window.addEventListener('load', function() {
 
         if (inspections && inspections.length) {
           const ulContainer = domElement('div', {
-            class: ' border-color--default__373c0__2oFDT',
+            class: ' border-color--default__373c0__r305k',
           });
           const ul = domElement('ul', {
-            class: ' undefined list__373c0__3GI_T',
+            class: ' undefined list__373c0__2Ud7X',
           });
 
           for (let i = 0; i < inspections.length; i++) {
@@ -157,21 +157,21 @@ window.addEventListener('load', function() {
 
             const li = domElement('li', {
               class:
-                ' margin-b5__373c0__2ErL8 border-color--default__373c0__2oFDT',
+                ' margin-b5__373c0__2ZFFk border-color--default__373c0__r305k',
             });
 
             const liInspectionContainer = domElement('div', {
               class:
-                ' margin-t2__373c0__1CFWK margin-b2__373c0__abANL border-color--default__373c0__2oFDT',
+                ' margin-t2__373c0__A2LU2 margin-b2__373c0__117pB border-color--default__373c0__r305k',
             });
             const liInspectionContainee = domElement('div', {
               class:
-                ' arrange__373c0__UHqhV gutter-2__373c0__3Zpeq vertical-align-baseline__373c0__2s3Ze border-color--default__373c0__2oFDT',
+                ' arrange__373c0__2iVWK gutter-2__373c0__1a5Xm vertical-align-baseline__373c0__1xCJv border-color--default__373c0__r305k',
             });
 
             const pDateContainer = domElement('div', {
               class:
-                ' arrange-unit__373c0__1piwO border-color--default__373c0__2oFDT',
+                ' arrange-unit__373c0__3XPkE border-color--default__373c0__r305k',
             });
             const pDate = domElement(
               'p',
@@ -184,7 +184,7 @@ window.addEventListener('load', function() {
 
             const pGradeAndScoreContainer = domElement('div', {
               class:
-                ' arrange-unit__373c0__1piwO arrange-unit-fill__373c0__17z0h border-color--default__373c0__2oFDT',
+                ' arrange-unit__373c0__3XPkE arrange-unit-fill__373c0__38Zde border-color--default__373c0__r305k',
             });
             const pGradeAndScore = domElement(
               'p',
@@ -196,16 +196,16 @@ window.addEventListener('load', function() {
 
             const liViolationsContainer = domElement('div', {
               class:
-                ' margin-t2__373c0__1CFWK margin-b2__373c0__abANL border-color--default__373c0__2oFDT',
+                ' margin-t2__373c0__A2LU2 margin-b2__373c0__117pB border-color--default__373c0__r305k',
             });
             const liViolationsContainee = domElement('div', {
               class:
-                ' arrange__373c0__UHqhV gutter-2__373c0__3Zpeq vertical-align-baseline__373c0__2s3Ze border-color--default__373c0__2oFDT',
+                ' arrange__373c0__2iVWK gutter-2__373c0__1a5Xm vertical-align-baseline__373c0__1xCJv border-color--default__373c0__r305k',
             });
 
             const pTitleContainer = domElement('div', {
               class:
-                ' arrange-unit__373c0__1piwO border-color--default__373c0__2oFDT',
+                ' arrange-unit__373c0__3XPkE border-color--default__373c0__r305k',
             });
             const pTitle = domElement(
               'p',
@@ -218,11 +218,11 @@ window.addEventListener('load', function() {
 
             const pViolationsContainer = domElement('div', {
               class:
-                ' arrange__373c0__UHqhV gutter-2__373c0__3Zpeq vertical-align-baseline__373c0__2s3Ze border-color--default__373c0__2oFDT',
+                ' arrange__373c0__2iVWK gutter-2__373c0__1a5Xm vertical-align-baseline__373c0__1xCJv border-color--default__373c0__r305k',
             });
             const pViolationsContainee = domElement('div', {
               class:
-                ' arrange-unit__373c0__1piwO arrange-unit-fill__373c0__17z0h border-color--default__373c0__2oFDT',
+                ' arrange-unit__373c0__3XPkE arrange-unit-fill__373c0__38Zde border-color--default__373c0__r305k',
             });
 
             const violations = inspections[i].violations;
@@ -233,7 +233,7 @@ window.addEventListener('load', function() {
                   'p',
                   {
                     class:
-                      ' margin-t2__373c0__1CFWK answerText__373c0__3nO_4 css-gdi06s',
+                      ' margin-b1-5__373c0__3rO59 border-color--default__373c0__r305k answerText__373c0__1eMCO css-gdi06s',
                   },
                   violations[j].description
                 );
@@ -249,7 +249,7 @@ window.addEventListener('load', function() {
                 'p',
                 {
                   class:
-                    ' margin-t2__373c0__1CFWK answerText__373c0__3nO_4 css-gdi06s',
+                    ' margin-b1-5__373c0__3rO59 border-color--default__373c0__r305k answerText__373c0__1eMCO css-gdi06s',
                 },
                 'N/A'
               );
@@ -282,12 +282,11 @@ window.addEventListener('load', function() {
           section.appendChild(ulContainer);
         } else {
           const pNoInspectionsContainer = domElement('div', {
-            class:
-              ' margin-b2__373c0__abANL border-color--default__373c0__3-ifU',
+            class: ' border-color--default__373c0__r305k',
           });
           const pNoInspectionsContainee = domElement('div', {
             class:
-              ' margin-b1__373c0__1khoT border-color--default__373c0__3-ifU',
+              ' margin-b1-5__373c0__3rO59 border-color--default__373c0__r305k',
           });
           const pNoInspections = domElement(
             'p',
@@ -303,7 +302,7 @@ window.addEventListener('load', function() {
         }
 
         const parent = document.getElementsByClassName(
-          ' arrange-unit__373c0__1piwO arrange-unit-grid-column--8__373c0__2yTAx padding-r2__373c0__28zpp border-color--default__373c0__2oFDT'
+          ' arrange-unit__373c0__3XPkE arrange-unit-grid-column--8__373c0__37EMu padding-r2__373c0__1jCaH border-color--default__373c0__r305k'
         )[0];
         parent.insertBefore(section, parent.children[1]);
       } catch (error) {
