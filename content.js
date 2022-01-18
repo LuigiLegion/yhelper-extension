@@ -39,7 +39,7 @@ function domElement(tagName, className, innerText = null, styles = null) {
 function parseFirestoreDocument(fields) {
   const data = {};
 
-  for (let field in fields) {
+  for (const field in fields) {
     if (fields.hasOwnProperty(field)) {
       const val = fields[field];
 
