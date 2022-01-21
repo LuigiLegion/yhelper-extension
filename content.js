@@ -40,7 +40,7 @@ function domElement(
   }
 
   if (attributes) {
-    for (let attribute in attributes) {
+    for (const attribute in attributes) {
       if (attributes.hasOwnProperty(attribute)) {
         el.setAttribute(attribute, attributes[attribute]);
       }
@@ -48,7 +48,7 @@ function domElement(
   }
 
   if (styles) {
-    for (let style in styles) {
+    for (const style in styles) {
       if (styles.hasOwnProperty(style)) {
         el.style[style] = styles[style];
       }
@@ -61,7 +61,7 @@ function domElement(
 function parseFirestoreDocument(fields) {
   const data = {};
 
-  for (let field in fields) {
+  for (const field in fields) {
     if (fields.hasOwnProperty(field)) {
       const val = fields[field];
 
