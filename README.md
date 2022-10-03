@@ -1,4 +1,4 @@
-# Yhelper
+# Yhelper Extension
 
 ![Yhelper Screenshot](./screenshot.png)
 
